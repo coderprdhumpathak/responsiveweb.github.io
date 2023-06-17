@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>design page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <style>
+        .container {
+            width: 100%;
+            height: 80vh;
+            background-color: rgb(235, 244, 253);
+        }
+
+        .div img {
+            height: 80vh;
+            width: 55%;
+            position: r;
+            object-fit: cover;
+        }
+
+        .div:is(h1, p) {
+            position: absolute;
+        }
+
+        .div1 {
+            margin-top: -30%;
+        }
+
+        .div1 h1 {
+            margin-left: 60%;
+            font-size: 70px;
+        }
+
+        .div1 p {
+            margin-left: 60%;
+            font-size: 20px;
+            margin-top: -2%;
+            line-height: 150%;
+            text-align: justify;
+        }
+
+        .div1 input {
+            margin-left: 60%;
+            width: 8%;
+            padding: 6px;
+            font-size: 20px;
+            color: white;
+            background-color: darkorange;
+        }
+
+        .container1 {
+            background-color: #f5f0f0;
+            width: 100%;
+        }
+
+        .contain h1 {
+            font-size: 50px;
+            text-align: center;
+        }
+
+        .contain p {
+            text-align: center;
+            font-size: 25px;
+            margin-top: -1.5%;
+        }
+
+        .contain {
+            margin-top: -2%;
+        }
+
+
+        .cont {
+
+            width: 30%;
+            height: 35vh;
+            margin-left: 15%;
+        }
+
+        .cont h1 {
+            font-size: 40px;
+            margin-top: -13%;
+            margin-left: 15%;
+        }
+
+        .cont p {
+            font-size: 30px;
+            margin-left: 1%;
+
+        }
+
+
+
+        .cont1 {
+
+            width: 30%;
+            height: 35vh;
+            margin-left: 60%;
+            margin-top: -16%;
+            margin-bottom: 5%;
+        }
+
+        .cont1 h1 {
+            font-size: 40px;
+            margin-top: -13%;
+            margin-left: 15%;
+        }
+
+        .cont1 p {
+            font-size: 30px;
+            margin-left: 1%;
+
+        }
+
+        .fa-solid {
+            color: darkorange;
+        }
+
+
+        .cont2 {
+
+            width: 30%;
+            height: 35vh;
+            margin-left: 15%;
+        }
+
+        .cont2 h1 {
+            font-size: 40px;
+            margin-top: -13%;
+            margin-left: 15%;
+        }
+
+        .cont2 p {
+            font-size: 30px;
+            margin-left: 1%;
+
+        }
+
+        .cont3 {
+
+            width: 30%;
+            height: 35vh;
+            margin-left: 60%;
+            margin-top: -16%;
+            margin-bottom: 5%;
+        }
+
+        .cont3 h1 {
+            font-size: 40px;
+            margin-top: -13%;
+            margin-left: 15%;
+        }
+
+        .cont3 p {
+            font-size: 30px;
+            margin-left: 1%;
+
+        }
+
+        .fa-solid {
+            color: darkorange;
+        }
+
+
+        .cont4 {
+
+            width: 30%;
+            height: 35vh;
+            margin-left: 15%;
+        }
+
+        .cont4 h1 {
+            font-size: 40px;
+            margin-top: -13%;
+            margin-left: 15%;
+        }
+
+        .cont4 p {
+            font-size: 30px;
+            margin-left: 1%;
+
+        }
+
+
+        .cont5 {
+
+            width: 30%;
+            height: 35vh;
+            margin-left: 60%;
+            margin-top: -16%;
+            margin-bottom: 5%;
+        }
+
+        .cont5 h1 {
+            font-size: 40px;
+            margin-top: -13%;
+            margin-left: 15%;
+        }
+
+        .cont5 p {
+            font-size: 30px;
+            margin-left: 1%;
+            ;
+        }
+
+        .fa-solid {
+            color: darkorange;
+        }
+
+        .flex {
+            background-color: darkorange;
+            margin-top: -4%;
+        }
+
+        .flex1 {
+            background-color: black;
+            height: 70vh;
+            width: 25%;
+            margin-left: 8%;
+            border-radius: 20px;
+        }
+
+        .flex h1 {
+            text-align: center;
+            font-size: 80px;
+
+
+        }
+
+        .flex1 img {
+            width: 100%;
+            height: 40vh;
+
+            position: relative;
+            border-bottom: 2px solid white;
+        }
+
+        .flex2 img {
+            width: 100%;
+            height: 40vh;
+            border-bottom: 2px solid white;
+            position: relative;
+        }
+
+        .flex3 img {
+            width: 100%;
+            height: 40vh;
+            border-bottom: 2px solid white;
+            position: relative;
+
+        }
+
+        .flex4 img {
+            width: 20%;
+
+            margin-left: 4%;
+            position: relative;
+        }
+
+        .flex1 h1 {
+            position: absolute;
+            margin-top: 1.2%;
+            font-size: 30px;
+            margin-left: 4.5%;
+            color: white;
+            text-align: center;
+        }
+
+        .flex1 p {
+            position: absolute;
+            color: white;
+            font-size: 20px;
+            margin-top: 5%;
+            margin-left: 7.7%;
+        }
+
+        .flex2 {
+            background-color: black;
+            position: relative;
+            height: 70vh;
+            width: 25%;
+            margin-top: -32.3%;
+            margin-left: 36.5%;
+            border-radius: 20px;
+        }
+
+        .flex2 h1 {
+            position: absolute;
+            font-size: 30px;
+            margin-left: 14%;
+            color: white;
+            text-align: center;
+        }
+
+        .flex2 p {
+            position: absolute;
+            color: white;
+            font-size: 20px;
+            margin-top: 23%;
+            margin-left: 31%;
+        }
+
+        .flex3 {
+            background-color: black;
+            height: 70vh;
+            margin-top: -32.3%;
+            border-radius: 20px;
+            margin-left: 65%;
+            width: 25%;
+        }
+
+        .flex3 h1 {
+            position: absolute;
+            margin-top: 1.2%;
+            font-size: 30px;
+            margin-left: 7%;
+            color: white;
+        }
+
+        .flex3 p {
+            position: absolute;
+            color: white;
+            font-size: 20px;
+            margin-top: 5%;
+            margin-left: 7.7%;
+        }
+
+        .head h1 {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        .head1 h4 {
+            margin-left: 20%;
+            font-size: 20px;
+            line-height: 400%;
+            color: darkorange;
+        }
+        .main{
+            background-color: #fff9f9;
+        }
+        .box{
+            
+            width: 25%;
+            margin-top: -28%;
+            margin-left: 55%;
+        }
+        .box img{
+            width: 100%;
+        }
+        .box p{
+            font-size: 20px;
+
+        }
+        .box input{
+            width: 35%;
+            padding: 10px;
+            font-size: 20px;
+            
+        }
+        .box input:hover{
+           background-color: darkorange;
+           color: white;
+        }
+        .group{
+            background-color: black;
+            margin-top:5%;
+        }
+        .group img{
+            margin-left: 30%;
+            border-radius: 800px;
+            height: 70vh;
+            width: 35%;
+        }
+        @media only screen and (max-width: 1024px) {
+            .container {
+                height: 60vh;
+            }
+
+            .div1 {
+                margin-top: -40%;
+                width: 96%;
+            }
+
+            .div1 h1 {
+                font-size: 50px;
+
+            }
+
+            .div1 p {
+                font-size: 18px;
+                margin-left: 3x;
+            }
+
+            .div1 input {
+                width: 15%;
+            }
+
+            .div img {
+                width: 55%;
+                height: 60vh;
+            }
+
+            .contain h1 {
+                font-size: 35px;
+            }
+
+            .contain p {
+                font-size: 20px;
+            }
+
+
+            .cont1 {
+                margin-top: -23.5%;
+                margin-left: 60%;
+            }
+
+            .cont1 h1 {
+                font-size: 35px;
+                margin-left: 60px;
+                margin-top: -50px;
+            }
+
+            .cont1 p {
+                font-size: 25px;
+            }
+
+            .cont {
+                margin-left: 10%;
+            }
+
+            .cont h1 {
+                font-size: 35px;
+                margin-left: 60px;
+                margin-top: -50px;
+            }
+
+            .cont p {
+                font-size: 25px;
+            }
+
+            .cont2 h1 {
+                margin-left: 10%;
+            }
+
+            .cont2 {
+                margin-left: 10%;
+                margin-top: 4%;
+                width: 35%;
+            }
+
+            .cont2 h1 {
+                font-size: 35px;
+                margin-left: 19%;
+                margin-top: -50px;
+            }
+
+            .cont2 p {
+                font-size: 25px;
+            }
+
+            .cont3 {
+                margin-top: -24%;
+                width: 35%;
+            }
+
+            .cont3 h1 {
+                font-size: 35px;
+
+                margin-top: -50px;
+                margin-left: 20%;
+            }
+
+            .cont3 p {
+                font-size: 25px;
+            }
+
+            .cont4 {
+                margin-top: -40PX;
+                margin-left: 10%;
+            }
+
+            .cont4 h1 {
+                font-size: 35px;
+                margin-top: -50px;
+                margin-left: 22%;
+            }
+
+            .cont4 p {
+                font-size: 25px;
+            }
+
+            .cont5 {
+                margin-top: -235px;
+                width: 35%;
+            }
+
+            .cont5 h1 {
+                font-size: 35px;
+                margin-top: -50px;
+                margin-left: 20%;
+            }
+
+            .cont5 p {
+                font-size: 25px;
+            }
+
+            .flex1 {
+
+                height: 71vh;
+            }
+
+            .flex {
+                height: 95vh;
+            }
+
+            .flex2 {
+                margin-top: -48.2%;
+                height: 71vh;
+            }
+
+            .flex1 h1 {
+                font-size: 25px;
+                margin-top: 4.2%;
+                margin-left: 3%;
+            }
+
+            .flex1 p {
+                margin-top: 8%;
+                margin-left: 6%;
+            }
+
+            .flex2 h1 {
+                font-size: 20px;
+                margin-top: 18%;
+            }
+
+            .flex2 p {
+                margin-top: 32%;
+                margin-left: 25%;
+            }
+
+            .flex3 {
+                margin-top: -48%;
+                height: 71vh;
+            }
+
+            .flex3 h1 {
+                font-size: 20px;
+                margin-top: 4.2%;
+            }
+
+            .flex3 p {
+                margin-top: 8%;
+                margin-left: 6%;
+            }
+
+            .head1 h4{
+                margin-left:13% ;
+            }
+            .box{
+                margin-top: -40%;
+                margin-left: 60%;
+            }
+            .box input{
+                width: 50%;
+                padding: 5px;
+            }
+
+            .group img{
+                height: 50vh;
+                margin-left: 35%;
+            }
+
+            .group img{
+                margin-left: 33%;
+                border-radius: 800px;
+                height: 40vh;
+                width: 35%;
+            }
+        }
+
+        @media only screen and (max-width: 768px) {
+
+            .cont1 {
+                margin-top: -32%;
+            }
+
+            .container {
+                height: 45vh;
+            }
+
+            .container1 {}
+
+            .div img {
+                width: 50%;
+                height: 45vh;
+            }
+
+            .div1 p {
+                font-size: 15px;
+            }
+
+            .div1 {
+                width: 100%;
+                margin-left: -3%;
+            }
+
+            .div1 h1 {
+                font-size: 30px;
+            }
+
+            .div1 input {
+                width: 13%;
+                font-size: 15px;
+                margin-top: -5%;
+            }
+
+            .cont2 {
+                width: 40%;
+                margin-left: 10%;
+            }
+
+            .cont3 {
+                margin-top: -31.5%;
+                width: 40%;
+            }
+
+            .cont4 {
+                width: 40%;
+            }
+
+            .cont5 {
+                width: 40%;
+            }
+
+            .flex2 {
+                margin-top: -65%;
+            }
+
+            .flex1 {
+                margin-bottom: .5%;
+            }
+
+            .flex1 h1 {
+                font-size: 20px;
+                margin-top: 5%;
+                margin-left: 2%;
+            }
+
+            .flex1 p {
+                margin-top: 12%;
+                margin-left: 4%;
+            }
+
+            .flex2 h1 {
+                font-size: 20px;
+                margin-top: 25%;
+                margin-left: 2%;
+            }
+
+            .flex2 p {
+                margin-top: 53%;
+                margin-left: 15%;
+            }
+
+            .flex3 {
+                margin-top: -64.5%;
+            }
+
+            .flex3 h1 {
+                font-size: 20px;
+                margin-top: 6%;
+                margin-left: 5%;
+            }
+
+            .flex3 p {
+                margin-top: 13%;
+                margin-left: 3.5%;
+            }
+
+            .flex {
+                height: 95vh;
+            }
+
+            .head1 h4{
+                font-size: 15px;
+            }
+            .box p{
+                font-size: 18px;
+            }
+            .box input{
+                width: 60%;
+                font-size: 18px;
+            }
+
+        }
+
+        @media only screen and (max-width: 480px) {
+            .container {
+                height: 74vh;
+            }
+
+            .container1 {
+                height: 210vh;
+            }
+
+            .div img {
+                margin-top: 46%;
+                width: 100%;
+            }
+
+            .div1 {
+                margin-top: -120%;
+                height: 30vh;
+
+                margin-bottom: 2%;
+            }
+
+            .div1 h1 {
+                margin-left: 3%;
+                font-size: 40px;
+                text-align: center;
+            }
+
+            .div1 p {
+                margin-left: 3%;
+                font-size: 15px;
+                text-align: center;
+            }
+
+            .div1 input {
+                margin-left: 45%;
+                width: 20%;
+            }
+
+
+            .contain {
+                margin-top: -2%;
+            }
+
+            .cont {
+                width: 80%;
+                margin-top: 10%;
+            }
+
+            .cont1 {
+                margin-top: -4%;
+                margin-left: 10%;
+                width: 80%;
+            }
+
+            .cont2 {
+                margin-top: -9%;
+                width: 80%;
+            }
+
+            .cont3 {
+                margin-top: -5%;
+                margin-left: 10%;
+                width: 80%;
+            }
+
+            .cont4 {
+                margin-top: -9%;
+                width: 80%;
+            }
+
+            .cont5 {
+                margin-top: -5%;
+                margin-left: 10%;
+                width: 80%;
+            }
+
+            .flex1 {
+                width: 60%;
+                margin-left: 18%;
+            }
+
+            .flex1 h1 {
+                margin-top: 10%;
+                margin-left: 12%;
+            }
+
+            .flex1 p {
+                margin-top: 20%;
+                margin-left: 14%;
+            }
+
+            .flex2 {
+
+                margin-top: 15%;
+                width: 60%;
+                margin-left: 18%;
+
+            }
+
+            .flex2 h1 {
+                margin-top: 20%;
+                margin-left: 14%;
+            }
+            .flex{
+                height: 280vh;
+            }
+
+            .flex2 p {
+                margin-left: 25%;
+                margin-top: 35%;
+            }
+
+            .flex3 {
+                margin-top: 15%;
+                width: 60%;
+                margin-left: 18%;
+            }
+
+            .flex3 h1 {
+                margin-left: 18%;
+                margin-top: 10%;
+            }
+
+            .flex3 p {
+                margin-top: 20%;
+                margin-left: 15%;
+            }
+            .main{
+                margin-top: 5%;
+            }
+            .box{
+                margin-top: 20%;
+            }
+            .head h1{
+                font-size: 30px;
+            }
+            .head1 h4{
+                margin-left: 15%;
+                font-size: 18px;
+            }
+            .box img{
+                width: 80%;
+                
+            }
+            .box input{
+                margin-left: 14%;
+            }
+            .box{
+                width: 80%;
+                margin-left: 17%;
+                margin-top: 10%;
+            }
+
+            .group img{
+                margin-left: 33%;
+                border-radius: 800px;
+                height: 25vh;
+                width: 39%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" >
+        <div class="div">
+            <img src="design.jpg">
+        </div>
+        <div class="div1">
+            <h1>What We Do</h1>
+            <p>Elit ut aliquam purus sit amet luctus venenatis. Ridiculus <br> mus mauris vitae ultricies leo integer
+                malesuada. Massa <br> enim nec dui nunc mattis enim. Sagittis vitae et leo duis ut. <br> Lacus
+                suspendisse
+                faucibus interdum.</p>
+            <input type="button" value="View More">
+        </div>
+    </div>
+    <div class="container1">
+        <div class="contain"data-aos="slide-right">
+            <h1>We Create Brands</h1>
+            <p>Branding and multidisciplinary design</p>
+        </div>
+        <div class="cont" data-aos="fade-up-right">
+            <i class="fa-solid fa-square-check fa-4x"></i>
+            <h1>Branding</h1>
+            <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+        </div>
+
+        <div class="cont1" data-aos="fade-up-left">
+            <i class="fa-solid fa-square-check fa-4x"></i>
+            <h1>Printing</h1>
+            <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+        </div>
+
+        <div class="cont2" data-aos="fade-up-right">
+            <i class="fa-solid fa-square-check fa-4x"></i>
+            <h1>Digital Strategy</h1>
+            <p>Sample text. Click to select the text box. Click again or double click to</p>
+        </div>
+
+        <div class="cont3" data-aos="fade-up-left">
+            <i class="fa-solid fa-square-check fa-4x"></i>
+            <h1>Advertising</h1>
+            <p>Sample text. Click to select the text box. Click again or double click to</p>
+        </div>
+
+        <div class="cont4" data-aos="fade-up-right">
+            <i class="fa-solid fa-square-check fa-4x"></i>
+            <h1>Marketing</h1>
+            <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+        </div>
+
+        <div class="cont5" data-aos="fade-up-left">
+            <i class="fa-solid fa-square-check fa-4x"></i>
+            <h1>Graphic Design</h1>
+            <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+        </div>
+    </div>
+    <div class="flex" data-aos="slide-right">
+        <h1 data-aos="fade">Our Portfolio</h1>
+        <div class="flex1"data-aos="zoom-in">
+            <img src="img.jpg">
+            <h1>Brand Campaign</h1>
+            <p>Graphic Design</p>
+        </div>
+
+        <div class="flex2" data-aos="zoom-in">
+            <img src="web.jpg">
+            <h1>Web Design Website</h1>
+            <p>Graphic Design</p>
+        </div>
+
+        <div class="flex3" data-aos="zoom-in">
+            <img src="logo.jpg">
+            <h1>Logo design</h1>
+            <p>Graphic Design</p>
+        </div>
+    </div>
+    <div class="main">
+        <div class="head" data-aos="flip-left">
+            <h1>We partner with the world's leading companies</h1>
+            <div class="head1" data-aos="fade-up-left">
+                <h4>Create a Webinar in Minutes</h4>
+                <h4>Business Sustainability Management</h4>
+                <h4>Learn how to grow your business</h4>
+                <h4>Practical tips to help you price your products</h4>
+            </div>
+            <div class="box" data-aos="fade-up-right">
+                <img src="mob.jpg">
+                <p>Etiam erat velit scelerisque in dictum non consectetur. Nisl purus in mollis nunc sed id semper. Cras
+                    fermentum odio eu feugiat pretium nibh ipsum.</p>
+                    <input type="button" value="Learn Morre">
+            </div>
+        </div>
+    </div>
+    <div class="group">
+        <img src="group.jpeg">
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset:400,
+        delay:500
+      });
+    </script>
+    
+</body>
+
+</html>
